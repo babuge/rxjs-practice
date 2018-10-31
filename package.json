@@ -4,7 +4,6 @@
   "description": "rxjs",
   "main": "index.js",
   "scripts": {
-    "serve": "node dist/index.js --watch",
     "start": "webpack --config config/webpack.dev.js --watch",
     "build": "webpack --config config/webpack.prod.js --watch",
     "complie": "babel --watch src --presets es2015-node --out-dir dist",
